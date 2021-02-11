@@ -68,4 +68,33 @@ The project, like any other I've created, it's responsible, easy to access and u
 ## Technologies
 
 For this project the technologies used are HTML5, CSS3, Bootstrap, FontAwesome, 
-Javascript, Jquery, Python Django, SQL based database. 
+Javascript, Jquery, Python Django, SQL based database.
+ 
+## Future Development
+
+A list with possible and helpful updates that the system may need:
+
+* I would like as a guest to know with who I'm sitting with at the table so that should be implemented
+as well. This requires eventually a new field of type many to many with all the guests from where 
+the administrator can choose who is sitting where but this may get complicated if there are too many 
+guests. A better solution may be to collect from the database all the guests who are sitting at a specific 
+table and query them in the main page of every user who is sitting at that specific table.
+
+## Requirements
+
+* You should have python3 and django version (3.0.8) installed.
+
+## Setup
+
+* Download this repo
+* After downloading this repo you have to get a SECRET_KEY from here -> https://djecrety.ir/ and paste
+it in the settings.py file from WeddingInvitation folder. (wedding_invitation/WeddingInvitation/settings.py)
+ 
+![Website main page responsive](wedding_documentation/picture_11.png)
+
+* Open cmd or terminal in wedding_invitation folder and type 
+```
+    python3 manage.py runserver
+```
+* Enjoy
+
