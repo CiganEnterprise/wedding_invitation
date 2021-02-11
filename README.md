@@ -94,6 +94,24 @@ it in the settings.py file from WeddingInvitation folder. (wedding_invitation/We
 
 * Open cmd or terminal in wedding_invitation folder and type 
 ```
+    python3 manage.py makemigrations
+```
+
+then 
+
+```
+    python3 manage.py migrate
+```
+
+after that create an admin
+
+```
+    python3 manage.py createsuperuser
+```
+
+run the app
+
+```
     python3 manage.py runserver
 ```
 * Enjoy
