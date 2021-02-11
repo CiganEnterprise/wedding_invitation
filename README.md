@@ -76,7 +76,7 @@ A list with possible and helpful updates that the system may need:
 
 * I would like as a guest to know with who I'm sitting with at the table so that should be implemented
 as well. This requires eventually a new field of type many to many with all the guests from where 
-the administrator can choose who is sitting where but this may get complicated if there are too many 
+the administrator can choose who is sitting at that specific table but this may get complicated if there are too many 
 guests. A better solution may be to collect from the database all the guests who are sitting at a specific 
 table and query them in the main page of every user who is sitting at that specific table.
 
