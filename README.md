@@ -82,7 +82,7 @@ table and query them in the main page of every user who is sitting at that speci
 
 ## Requirements
 
-* You should have python3 and django version (3.0.8) installed.
+* You should have python3 and django (version 3.0.8 or bigger) installed.
 
 ## Setup
 
