@@ -67,8 +67,8 @@ The project, like any other I've created, it's responsive, easy to access and us
 
 ## Technologies
 
-For this project the technologies used are HTML5, CSS3, Bootstrap, FontAwesome, 
-Javascript, Jquery, Python Django, SQL based database.
+For this project the technologies used are HTML5, CSS3, Bootstrap, 
+Javascript, Jquery, Python Django, SQL based database (sqlite3).
  
 ## Future Development
 
